@@ -1,0 +1,89 @@
+
+
+body {
+	background: 
+radial-gradient(circle at 50% 59%, #D2CAAB 3%, #364E27 4%, #364E27 11%, rgba(54,78,39,0) 12%, rgba(54,78,39,0)) 50px 0,
+radial-gradient(circle at 50% 41%, #364E27 3%, #D2CAAB 4%, #D2CAAB 11%, rgba(210,202,171,0) 12%, rgba(210,202,171,0)) 50px 0,
+radial-gradient(circle at 50% 59%, #D2CAAB 3%, #364E27 4%, #364E27 11%, rgba(54,78,39,0) 12%, rgba(54,78,39,0)) 0 50px,
+radial-gradient(circle at 50% 41%, #364E27 3%, #D2CAAB 4%, #D2CAAB 11%, rgba(210,202,171,0) 12%, rgba(210,202,171,0)) 0 50px,
+radial-gradient(circle at 100% 50%, #D2CAAB 16%, rgba(210,202,171,0) 17%),
+radial-gradient(circle at 0% 50%, #364E27 16%, rgba(54,78,39,0) 17%),
+radial-gradient(circle at 100% 50%, #D2CAAB 16%, rgba(210,202,171,0) 17%) 50px 50px,
+radial-gradient(circle at 0% 50%, #364E27 16%, rgba(54,78,39,0) 17%) 50px 50px;
+background-color:#63773F;
+background-size:100px 100px;
+}
+
+#bgimage {
+	background-image:url("http://whamphotography.com/wp-content/uploads/2013/03/webDTLAOVERPASS_Panorama1.jpg");
+	width:100%;
+	height:300px;
+	margin: 0px auto;
+	text-shadow: 1px 1px black;
+
+	h1 {
+		text-align:center;
+		color:lightblue;
+		padding-top: 100px;
+		margin: 0px auto;
+		font-size: 50px;
+	}
+}
+
+
+main {
+	font-size: 25px;
+	text-align:left;
+	display:inline-block;
+	color:lightblue;
+	text-shadow: 1px 1px black;
+}
+
+
+main img {
+	width: 50%;
+	height: 100px;
+	margin: 0 auto;
+	border-radius: 50%;
+	z-index: 2;
+	margin-top:-56px;
+	margin-left: 10%;
+	border: 5px solid;
+	border-color: white;
+
+}
+
+article {
+	font-size:20px;
+	text-align:center;
+	width:30%;
+	color:lightblue;
+	text-shadow: 1px 1px black;
+
+}
+
+#U87 {
+	width: 58%;
+	height:350px;
+}
+
+#RCA44 {
+	width: 70%;
+	height: 250px;
+}
+
+.container {
+	width: 70%;
+	margin: 0px auto;
+	background-color: white;
+	padding: 30px;
+}
+
+@media screen and (max-width: 920px) {
+	body {background-color:blue !important;
+	}
+}
+
+
+		
+
